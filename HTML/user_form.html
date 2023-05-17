@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1>User registration form</h1>
+    <hr width="50%" align="left">
+    <form action="" method="post">
+        <table width="50%" cellpadding="5">
+            <tr>
+                <td>
+                    <label for="full_name">
+                        Full Name
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="first name" id="user_name" placeholder="first name" required>
+                </td>
+                <td>
+                    <input type="text" name="second name" id="user_name" placeholder="second name" required>
+                </td>
+                <td>
+                    <input type="text" name="last name" id="user_name" placeholder="last name" required>
+                </td>
+            </tr>
+        </table>
+
+            <table width="50%" cellpadding="5">
+                <tr>
+                    <td>
+                        <label for="address">
+                            Address
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea name="address" cols="30" rows="2"></textarea>
+                    </td>
+                </tr>
+            </table>
+
+        <table width="10%" cellpadding="5">
+            <tr>
+                <td>
+                    <label for="city">
+                        City
+                    </label>
+                </td>
+                <td>
+                    <select name="city" id="">
+                        <option value="1">Ahmedabad</option>
+                        <option value="2">Surat</option>
+                        <option value="3">Bhavnagar</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <table width="30%" cellpadding="5">
+            <tr>
+                <td>
+                    Gender
+                </td>
+                <td>
+                     <input type="radio" name="gender" id="male_radio" value="1"><label for="male_radio">Male</label>
+                     <input type="radio" name="gender" id="female_radio" value="0"><label for="female_radio">Female</label>
+                </td>
+                <tr>
+                    <td>
+                        Hobbies 
+                    </td>
+                    <td>
+                         <input type="checkbox" id="hobbie_hockey"  name="hobbies" value="1"><label for="hobbie_hockey">Hockey</label>
+                         <input type="checkbox" name="hobbies" value="2">Cricket
+                         <input type="checkbox" name="hobbies" value="3">Coding
+                    </td>
+               </tr>
+           </tr>
+           <tr>
+            <td colspan="2" align="center">
+                 <input type="submit" value="Submit">
+            </td>
+       </tr>
+        </table>
+        
+</body>
+
+</html>
